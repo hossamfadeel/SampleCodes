@@ -19,7 +19,7 @@ int main()
         for (i = 0; i < 24; i++)
         {
             
-        mod[nbr_items % 6][j%24] = my_input[n] + 6;
+        mod[n % 6][j%24] = my_input[n] + 6;
         
         printf("my_input =%d, nbr_items modulo 6 = %d, j modulo 24= %d\n", (my_input[n] + 6), (nbr_items % 6), mod);
         j++;
